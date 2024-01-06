@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Rachel Pineda</title>
+</head>
+<body>
+    <header>
+        <!--For Frame 1 in Figma w/ image, director text-->
+        <img id="pfp" src="Images/grad.jpeg">
+        <div class="intro-text">
+            <div class="name-text">
+                <h1 id="name">Hi, I'm Rachel! 👋</h1>
+                <h3 id="under-name">I'm a first-year computer science student at Cornell University.</h3>
+            </div>
+            <div class="nav">
+                <div>
+                    <a class="nav-wrapper coral-hover" href="#about" style="text-decoration:none;">
+                        ABOUT
+                    </a>
+                    <a class="nav-wrapper coral-hover" href="#projects" style="text-decoration:none;">
+                        PROJECTS
+                    </a>
+                </div>
+                <a class="red-link" id="connect-link-text" href="#connect">
+                    Connect with me!
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!--For Frame 2 & 3 in Figma w/ about, projects, etc-->
+        <div>
+            <!--ABOUT-->
+            <p class="section-title" id="about">ABOUT</p>
+            <div id="three-column-boxes">
+                <!--LEFT COLUMN-->
+                <div>
+                    <p class="subheading">PERSONAL STATEMENT</p>
+                    <p class="box last-box" id="personal-statement">
+                        I am based in the Greater Philadelphia region and am a first-year computer science student with an interest in software 
+                        engineering. My commitment to my ongoing personal and professional development is evident in the depth with which I invest myself 
+                        in both academic projects and personal endeavors. Fueled by a collaborative spirit, I consider myself an adaptive team player. I 
+                        value the wealth of experience that team members have and am always eager to learn from their insights.
+                    </p>
+
+                    <p class="subheading">SKILLS</p>
+                    <div class="box last-box">
+                        <ul class="box-text">
+                            <li>JavaScript, Java, Python, HTML, CSS</li>
+                            <li>Autodesk Fusion 360 </li>
+                            <li>Google Suite, Microsoft Office</li>
+                            <li>Adobe Photoshop, Adobe Lightroom, Final Cut Pro</li>
+                            <li>Russian (proficient)</li>
+                        </ul>
+                    </div>
+
+                    <p class="subheading">EDUCATION</p>
+                    <div class="box">
+                        <p class="box-title">Cornell University College of Engineering</p>
+                        <p class="box-subtitle">Computer Science Major</p>
+                        <p class="box-text">Aug. 2023 - Present</p>
+                        <p class="box-text">Ithaca, NY</p>
+                        <ul class="box-text">
+                            <li>Grade: 3.5 GPA</li>
+                        </ul>
+                    </div>
+                    <div class="box last-box">
+                        <p class="box-title">Central Bucks High School South</p>
+                        <p class="box-subtitle">High School Diploma</p>
+                        <p class="box-text">Aug. 2020 - June 2023</p>
+                        <p class="box-text">Warrington, PA</p>
+                        <ul class="box-text">
+                            <li>Grade: 4.62 Weighted GPA</li>
+                            <li>Awards: GIEP Student, Summa Cum Laude Scholar</li>
+                            <li>Activities and societies: National Honor Society, National Science Honor Society, National Rho Kappa Honor Society, 
+                                Computer Science Honor Society, Environmental Club leader</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--MIDDLE COLUMN-->
+                <div>
+                    <p class="subheading">LEADERSHIP & ACTIVITIES</p>
+                    <div class="box">
+                        <p class="box-title">Combat Robotics at Cornell</p>
+                        <p class="box-subtitle">Marketing Member</p>
+                        <p class="box-text">Oct. 2023 - Present</p>
+                        <p class="box-text">Ithaca, NY</p>
+                        <ul class="box-text">
+                            <li>Collaborated with subteam members to raise $20k+ in funds and maintain corporate sponsors.</li>
+                            <li>Renovated the team website to reflect current sponsors and projects using HTML, CSS, JavaScript.</li>
+                        </ul>
+                    </div>
+
+                    <div class="box last-box" id="chop">
+                        <p class="box-title">Charity Club for Children's Hospital of Philadelphia</p>
+                        <p class="box-subtitle">Founder</p>
+                        <p class="box-text">Sept. 2021 - June 2023</p>
+                        <p class="box-text">Warrington, PA</p>
+                        <ul class="box-text">
+                            <li>Appointed to organize 5K runs; grew community to 40+ members through the creation and promotion of social media tools.</li>
+                            <li>Managed sponsorships and outreach events.</li>
+                            <li>Raised over $7,000+ for Cardiac Center.</li>
+                        </ul>
+                    </div>
+
+                    <p class="subheading">RELEVANT COURSES</p>
+                    <div class="box">
+                        <p class="box-title">Introduction to Computing</p>
+                        <p class="box-subtitle">CS 1110 (Python)</p>
+                        <p class="box-text">Taken Fall 2023</p>
+                    </div>
+                    <div class="box">
+                        <p class="box-title">Multivariable Calculus</p>
+                        <p class="box-subtitle">MATH 1920</p>
+                        <p class="box-text">Taken Fall 2023</p>
+                    </div>
+                    <div class="box">
+                        <p class="box-title">Introduction to Microeconomics</p>
+                        <p class="box-subtitle">AP Microeconomics</p>
+                        <p class="box-text">Taken Fall 2022</p>
+                    </div>
+                    <div class="box last-box" id="macro">
+                        <p class="box-title">Introduction to Macroeconomics</p>
+                        <p class="box-subtitle">AP Macroeconomics</p>
+                        <p class="box-text">Taken Spring 2022</p>
+                    </div>
+                </div>
+
+                <!--RIGHT COLUMN-->
+                <div>
+                    <div class="box">
+                        <p class="box-title">Bucks Bubbles</p>
+                        <p class="box-subtitle">Event Staff</p>
+                        <p class="box-text">May 2023 - Present</p>
+                        <p class="box-text">Glenside, PA</p>
+                        <ul class="box-text">
+                            <li>Communicated with coworkers to nurture efficient, organized, and precise party efforts.</li>
+                            <li>Increased engagement by 55.5% through social media promotion and advertisements.</li>
+                            <li>Generated content for social media platforms by photographing and editing photos and creating captions and posts.</li>
+                        </ul>
+                    </div>
+
+                    <div class="box" id="starbucks">
+                        <p class="box-title">Starbucks</p>
+                        <p class="box-subtitle">Barista</p>
+                        <p class="box-text">Oct. 2021 - May 2023</p>
+                        <p class="box-text">Huntingon Valley, PA</p>
+                        <ul class="box-text">
+                            <li>Engaged and connected with customers.</li>
+                            <li>Cooperated with coworkers to balance responsibilities and create a pleasant work environment.</li>
+                        </ul>
+                    </div>
+
+                    <div class="box">
+                        <p class="box-title">Intermediate Computing</p>
+                        <p class="box-subtitle">CS 2110 (Java)</p>
+                        <p class="box-text">Taking Spring 2024</p>
+                    </div>
+                    <div class="box">
+                        <p class="box-title">Linear Algebra</p>
+                        <p class="box-subtitle">MATH 2940</p>
+                        <p class="box-text">Taking Spring 2024</p>
+                    </div>
+                </div>
+            </div>
+            <a class="link" href="Documents/Pineda Dec23 Resume.pdf" target="_blank" style="text-decoration:none">Click to view this section as a single-page 
+                formatted resume (PDF).</a>
+
+            <!--PROJECTS-->
+            <p class="section-title" id="projects">PROJECTS</p>
+            <div id="three-column-boxes">
+                <!--LEFT COLUMN-->
+                <div>
+                    <p class="subheading">CONNECT-4</p>
+                    <div class="box last-box">
+                        <p class="box-text">
+                        This assignment was coded in Python and implemented the core classes needed for Connect-4, yet allowing user configuration of board 
+                        size winning run length. While emphasizing human gameplay, the task also required coding a reasonably skilled AI.
+                        </p>
+                        <a class="red-link" href="Documents/Pineda Dec23 Resume.pdf" target="_blank">Demonstration Video Link</a>
+                    </div>
+                    
+                    <p class="subheading">ALIENS</p>
+                    <div class="box last-box">
+                        <p class="box-text">
+                            This project was my final assignment for CS 1110, which involved recreating a Space Invaders type game with Python. A 
+                            significant portion involved coding a single wave of invaders, or aliens. In my own time, I coded an extra feature to display 
+                            the game's remaining lives.
+                        </p>
+                        <a class="red-link" href="Documents/Pineda Dec23 Resume.pdf" target="_blank">Demonstration Video Link</a>
+                    </div>
+                </div>
+
+                <!--MIDDLE COLUMN-->
+                <div>
+                    <p class="subheading">3LB COMBAT ROBOT</p>
+                    <div class="box last-box" id="macro">
+                        <p class="box-text">
+                            This assignment was a group training project which focused on constructing a 3lb combat robot. Using Autodesk Fusion 360, my 
+                            group and I experimented with Computer-Aided Design (CAD). We created a detailed CAD of our robot; I specifically contributed to 
+                            the chassis design. I also coded a dedicated webpage to publicly showcase our work throughout the project! The webpage was coded 
+                            with HTML and CSS. By the end of our training, we had been introduced to the basics of HTML, CSS, and CAD design as they relate 
+                            to innovating a successful combat robot. We presented our robot to a panel of professors, team members, and team leaders.
+                        </p>
+                        <a class="red-link" href="Documents/Pineda Dec23 Resume.pdf" target="_blank">Demonstration Video Link</a>
+                    </div>
+                </div>
+
+                <!--RIGHT COLUMN-->
+                <div>
+                    <p class="subheading">PERSONAL WEBSITE</p>
+                    <div class="box last-box">
+                        <p class="box-text">
+                            This is the project I am most proud of! I independently taught myself HTML and CSS to code this personal website; I used Figma 
+                            to design the layout and VS Code to make my visions come to life. 
+                        </p>
+                    </div>
+                    
+                    <p class="subheading">COLOR MODELS</p>
+                    <div class="box last-box" id="models">
+                        <p class="box-text">
+                            This assignment leveraged Python's graphic capabilities. The primary focus was to explore color representation methods, including 
+                            RGB and CMYK. Without using Python's built-in conversion module, I implemented my own color model applicaton. The GUI for this 
+                            assignment was coded and provided by professor Walker White.
+                        </p>
+                        <a class="red-link" href="Documents/Pineda Dec23 Resume.pdf" target="_blank">Demonstration Video Link</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!--For Frame 4 in Figma w/ connect with me links-->
+        <p class="section-title" id="connect">CONNECT WITH ME</p>
+        <div id="connect-box">
+            <div class="two-column-text">
+                <!--LEFT COLUMN-->
+                <div>
+                    <div class="logos-logotext-group">
+                        <img class="logos" src="Images/linkedin-logo.png">
+                        <a class="logotext red-link" href="https://www.linkedin.com/in/rrachelpineda/" target="_blank">rrachelpineda</a>
+                    </div>
+                    <div class="logos-logotext-group">
+                        <img class="logos" src="Images/github-logo.png">
+                        <a class="logotext red-link" href="https://github.com/rrachelpineda/" target="_blank">rrachelpineda</a>
+                    </div>
+                </div>
+                <!--RIGHT COLUMN-->
+                <div>
+                    <div class="logos-logotext-group">
+                        <img class="logos" src="Images/email-icon.png">
+                        <a class="logotext red-link" href="mailto:rvp35@cornell.edu">rvp35@cornell.edu</a>
+                    </div>
+                    <div class="logos-logotext-group">
+                        <img class="logos" src="Images/phone-icon.png">
+                        <p class="logotext">+1 (267) 481-4282</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
